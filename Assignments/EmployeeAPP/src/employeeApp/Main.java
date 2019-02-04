@@ -1,12 +1,12 @@
 
-package employeeApp
+package employeeApp;
 
 public class Main
 {
   private static void workWithData()
   {
-    HealthPlan h1 = new HealthPlan("No Dying");
-    HealthPlan h2 = new HealthPlan("Sometimes Dying");
+    Healthplan h1 = new Healthplan("No Dying");
+    Healthplan h2 = new Healthplan("Sometimes Dying");
     
     Company c1 = new Company("Company A", 100);
     Company c2 = new Company("Company B", 100);

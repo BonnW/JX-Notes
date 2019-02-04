@@ -1,5 +1,5 @@
 
-package employeeApp
+package employeeApp;
 
 public class Healthplan
 {
@@ -7,8 +7,10 @@ public class Healthplan
   private int id;
   private String name;
 
-  public HealthPlan (String name)
+  public Healthplan (String name)
   {
+    maxId++;
+    id = maxId;
     this.name = name;
   }
 

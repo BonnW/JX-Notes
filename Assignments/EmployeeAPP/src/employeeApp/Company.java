@@ -1,10 +1,10 @@
 
 package employeeApp;
 
-public class Company;
+public class Company
 {
   private static int maxId = 0;
-  public int id;l
+  public int id;
   public String name;
   public int debt;
 
