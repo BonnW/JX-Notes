@@ -1,3 +1,4 @@
+
 package employeeApp;
 
 public class Company;
@@ -8,4 +9,12 @@ public class Company;
   public int debt;
 
   public final static double match401k = 0.05;
+
+  public Company (String name, int debt)
+  {
+    maxId++;
+    id = maxId;
+    this.name = name;
+    this.debt = debt;
+  }
 }
