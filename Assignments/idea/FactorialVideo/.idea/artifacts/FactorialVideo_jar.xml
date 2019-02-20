@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FactorialVideo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FactorialVideo_jar</output-path>
+    <root id="archive" name="FactorialVideo.jar">
+      <element id="module-output" name="FactorialVideo" />
+    </root>
+  </artifact>
+</component>
